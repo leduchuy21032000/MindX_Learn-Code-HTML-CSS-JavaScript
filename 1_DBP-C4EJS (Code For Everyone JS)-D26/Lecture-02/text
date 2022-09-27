@@ -1,0 +1,41 @@
+*{      /* Áp dụng lên toàn bộ các element */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.bl {
+    display: inline;
+}
+
+.border {
+    border: 10px solid red;
+}
+
+.form {
+    display: block;
+    margin: auto;
+    padding: 100px;
+    width: 70%;
+    text-align: center;
+}
+
+.pad {
+    padding: 0 20px;
+}
+.rect {
+    height: 40vh;
+    width: 40vh;
+    box-sizing: border-box;
+}
+.box {
+    width: 20vw;
+    height: 20vw;
+    padding: 40px;
+    margin: 40px;
+    box-sizing: border-box;
+}

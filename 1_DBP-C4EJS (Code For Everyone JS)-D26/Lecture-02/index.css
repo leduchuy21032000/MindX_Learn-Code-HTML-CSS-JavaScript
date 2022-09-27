@@ -1,0 +1,25 @@
+/* 3 cách viết CSS chính
+inline CSS: không cần Selector, chỉ áp dụng cho tag duy nhất. Nếu có nhiều tag giống nhau thì phải copy ra nhiều lần
+internal: Selector + Declaration
+external: dùng file .css để chứa
+*/
+
+/*
+Nên dùng External CSS
+*/
+/* input {
+    color: red;
+    font-size: 30px;
+} */
+
+/* Class Selector */
+.red {
+    color: red;
+}
+
+.big {
+    font-size: 50px;
+}
+
+
+

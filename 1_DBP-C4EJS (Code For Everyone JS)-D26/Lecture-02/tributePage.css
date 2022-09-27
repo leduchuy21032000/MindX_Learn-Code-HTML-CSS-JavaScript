@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245,245,245);
+}
+.center {
+    text-align: center;
+}
+
+.header{
+    background-color: white;
+}
+
+.content {
+    margin: auto;
+    width: 550px;
+    font-size: 16px;
+}
+
+.opa {
+    opacity: 0.7;
+}

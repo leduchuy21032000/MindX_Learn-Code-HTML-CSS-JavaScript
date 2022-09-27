@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <style>
+        /* Khai báo CSS */
+        /* Internal CSS*/
+        input {
+            color: aqua;
+            height: 200px;
+        }
+    </style> -->
+</head>
+<body>
+    <form class="form border">
+        <fieldset style = "height: 500px";>
+            <legend class="red big"> Private Information </legend>
+            <input type = "range">
+            <input class="big" type = "text" placeholder = "Enter your name">
+            <input type = "button" value = "Click me!">
+            <input type = "checkbox">
+            <label for = ""> Agree to term... </label>
+    
+            <input type = "radio" name = "name">
+            <label>Dog</label>
+    
+            <input type = "radio" name = "name">
+            <label>Cat</label>
+    
+            <input type = "radio" name = "name">
+            <label>Pupey</label>
+    
+            <input type = "radio" name = "name">
+            <label>Kitten</label>
+    
+            <select name = "" id = "select_id" class="red">         <!-- # Drop down -->
+                <option value="fly">Dog</option>    <!-- value ẩn-->
+                <option value="dragonfly">Cat</option>
+                <option value="butter">Pupey</option>
+                <option value="butterfly">Kitten</option>
+            </select>
+            <input type="date">
+            <br><br>
+            <p id ="output"></p>    <!-- Moi them -->
+        </fieldset>
+
+        <br>
+        <br>
+        <textarea name = "" id = "" col = "30" rows = "10"></textarea>
+
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>

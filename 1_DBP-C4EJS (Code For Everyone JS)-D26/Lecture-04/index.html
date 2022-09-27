@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: white;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color:whitesmoke;
+        }
+        </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="nav_bar">
+        <ul>
+            <li><img src="./assets/uber_logo.svg"></li>
+            <li><a href="#deliver">Delivery</a></li>
+            <li><a href="#pickup">Pickup</a></li>
+            <li><a href="#london">London</a></li>
+            <li><input class="form_craving" type="text" placeholder="What are you craving?"></li>
+            <li class="cart"><a style="color: white">Cart:0</a></li>
+        </ul>    
+    </div>
+    <br>
+
+    <!-- Intro banner -->
+    <div class="intro_banners">
+        <div class="intro_banner">
+            <img src="./assets/monday.png" alt="">
+        </div>
+        <div class="intro_banner">
+            <img src="./assets/sain.png" alt="">
+        </div>
+        <div class="intro_banner">
+            <img src="./assets/red_bull.png" alt="">
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Type Icon-->
+    <div class="type_icons">
+        <div class="type_icon ">
+            <img class="icon_image" src="./assets/deals.png" alt="">
+            <p>Deals</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/uber_grocery.png" alt="">
+            <p>Grocery</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/alcohol.png" alt="">
+            <p>Alcohol</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets//top_eats.png" alt="">
+            <p>Top Eats</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/asian.png" alt="">
+            <p>Asian</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/korean.png" alt="">
+            <p>Korean</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/japanese.png" alt="">
+            <p>Japanese</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/sushi.png" alt="">
+            <p>Sushi</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/italian.png" alt="">
+            <p>Italian</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/pizza.png" alt="">
+            <p>Pizza</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/american.png" alt="">
+            <p>American</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/vegan.png" alt="">
+            <p>Vegan</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/burger.png" alt="">
+            <p>Burgers</p>
+        </div>
+        <div class="type_icon">
+            <img class="icon_image" src="./assets/healthy.png" alt="">
+            <p>Healthy</p>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- Line -->
+    <svg height="10" width="5000">
+        <line x1="30" y1="0" x2="1410" y2="0" style="stroke:rgb(220,220,220);stroke-width:2" />
+    </svg>
+   
+    <!-- Exclusively -->
+    <div class="food_title">
+        <h1>Exclusively on Uber Eats</h1>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_1.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Rasa Sangyang</b></p>
+                <p>£2.79 Delivery Free</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_2.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Crazy Salad</b></p>
+                <p>£1.79 Delivery Free</p>
+                <p style="color: grey;">10-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_3.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Madeira Star</b></p>
+                <p>£0 Delivery Free</p>
+                <p style="color: grey;">25-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_4.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Subway</b></p>
+                <p>£3.00 Delivery Free</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_5.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Sarra Coffe</b></p>
+                <p>£2.79 Delivery Free</p>
+                <p style="color: grey;">10-15 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/exclusive_6.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Balance</b></p>
+                <p>£1.50 Delivery Free</p>
+                <p style="color: grey;">15-30 min</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Essential -->
+    <div class="food_title">
+        <h1>Order your essentials</h1>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_1.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Sainbury's Totteham Court Road</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_2.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Central Food and Wine</b></p>
+                <p><strike>£0.79</strike> £0 Delivery Fee</p>
+                <p style="color: grey;"> 15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_3.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Londis - Vauxhall Bridge</b></p>
+                <p><strike>£1.79</strike> £0 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_4.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>South Lambeth Food and Wine</b></p>
+                <p>£2.79 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_5.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Cumberland Food & Wine</b></p>
+                <p><strike>£2.29</strike> £0 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/essen_6.png" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Sunstar Express</b></p>
+                <p><strike>£3.29</strike> £0 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- In a rush -->
+    <div class="food_title">
+        <h1>In a rush?</h1>
+        <p style="color: grey"> Here's the fastest delivery for you</p>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_1.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>McDonalds® - Holborn</b></p>
+                <p> £3.99 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_2.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Starbucks</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_3.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>KFC - London - Waterloo</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_4.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Caffe Nero</b></p>
+                <p> £0.29 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_5.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Cafe 101</b></p>
+                <p> £0.29 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_6.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>PAUL</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular -->
+    <div class="food_title">
+        <h1>Popular near you</h1>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/popular_1.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Krispy Kreme</b></p>
+                <p> £1.29 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/popular_2.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Tulsi News Food and Wine</b></p>
+                <p><strike>£3.29</strike> £0.79 Delivery Fee</p>
+                <p style="color: grey;">30-40 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/popular_3.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Starbucks</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/popular_4.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Boost Juice Bar</b></p>
+                <p> £1.79 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_5.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>McDonald's® - Holborn</b></p>
+                <p> £3.99 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/rush_6.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Sainbury's Totteham Court Road</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Healthy -->
+    <div class="food_title">
+        <h1>Healthy eating</h1>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_1.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Pret a Manger</b></p>
+                <p> £0.29 Delivery Fee</p>
+                <p style="color: grey;">15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_2.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Leon</b></p>
+                <p> £1.29 Delivery Fee</p>
+                <p style="color: grey;">15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_3.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Subway</b></p>
+                <p> £0.29 Delivery Fee</p>
+                <p style="color: grey;">15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_4.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>CPRESS</b></p>
+                <p> £0 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_5.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Le Pain Quotidien Royal Festival Hall</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/healthy_6.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>itsu</b></p>
+                <p> £2.29 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Today offer -->
+    <div class="food_title">
+        <h1>Today's offers</h1>
+    </div>
+
+    <div class="food_list">
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_1.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Bibimbab Cafe</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">20-30 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_2.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>EggsQuisite</b></p>
+                <p> £1.29 Delivery Fee</p>
+                <p style="color: grey;">30-40 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_3.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Cafe 101</b></p>
+                <p> £0.29 Delivery Fee</p>
+                <p style="color: grey;">10-20 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_4.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Caffe Nero</b></p>
+                <p> £1.79 Delivery Fee</p>
+                <p style="color: grey;">15-25 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_5.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Farm Girl - Fitzrovia</b></p>
+                <p> £0.79 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food_image">
+                <img src="./assets/today_6.webp" alt="">
+            </div>
+            <div class="food_content">
+                <p style="font-size: 18px;"><b>Wasabi</b></p>
+                <p> £2.79 Delivery Fee</p>
+                <p style="color: grey;">25-35 min</p>
+            </div>
+        </div>
+ 
+
+    </div>
+
+</body>
+</html>
